@@ -1,41 +1,74 @@
 <!DOCTYPE html>
-<html lang="pt_br">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Aula de Dev Web</title>
-        <style>
-            h1{
-                text-align: center;
-                color: #2b6ec7;
-            }
-            h1:hover{
-                color: #872bc5;
-            }
-            p {
-                text-align: center;
-                text-decoration: none;
-                background-color: #872bc565;
-                border-radius: 5px;
-            }
-        </style>
+        <link rel="stylesheet" href="css/estilo.css">
+
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+
+        <title> Keller's Book Nook </title>
     </head>
     <body>
-        <!-- Conteúdo -->
-        <h1>Hello World!</h1> 
-        <h2>Título de nível 2</h2>
-        <h3>Título de nível 3</h3>
-        <h4>Título de nível 4</h4>
-        <h5>Título de nível 5</h5>
-        <h6>Título de nível 6</h6>
+        <header>
+                <img src="img/logo.png" alt="Site da Keller's Book Nook" class="logo">
+                <nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>Produtos</li>
+                        <li>Contato</li>
+                        <li>Login</li>
+                    </ul>
+                </nav>
+        </header>
         
-        <!-- Parágrafo -->
-        <p>My name is Sophia, I'm 18 years old. <br/>
-            and I want to see my babies and take a big cup of coffee. <br/>
-            Yupiiii Web developerr.
-        </p>
+        <section class="slider">
+            <div class="slides">
+                <div class="slide fade">
+                    <img src="img/banner1.jfif" alt="Imagem 1">
+                </div>
+                <div class="slide fade">
+                    <img src="img/banner2.jfif" alt="Imagem 2">
+                </div>
+                <div class="slide fade">
+                    <img src="img/banner3.jfif" alt="Imagem 3">
+                </div>
+            </div>
+        </section>
 
-
-        
+        <!--Conteúdo da página WEB-->
+        <main>
+            <section class="sobre_nos">
+                <h2 class="titulo_sobrenos">Sobre nós</h2>
+                <img src="img/sobrenos.jpg" class="img_sobrenos">
+                <p><strong>Lorem ipsum dolor</strong> sit amet consectetur adipisicing elit. Suscipit est numquam provident rem sequi
+                    adipisci molestias quo odit pariatur incidunt eligendi eum quia nostrum perferendis tempore,dicta
+                    quisquam. Earum, perferendis. <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit est numquam provident rem sequi
+                    adipisci molestias quo odit pariatur incidunt eligendi eum quia nostrum perferendis tempore,dicta
+                    quisquam.</p> 
+                <p>Earum, perferendis.</p>
+            </section>
+            <!-- Nosso estabelecimento -->
+            <section class="mapaGeral">
+                <h2 class="titulo_sobrenos">Nosso Estabelecimento</h2>
+                <p>Veja abaixo onde nos encontrar!</p>
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.884133449633!2d-46.56091152375745!3d-23.644320164646935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5cec46ebe475%3A0x8d2c14858d37a05e!2sEscola%20Senai%20Armando%20de%20Arruda%20Pereira!5e0!3m2!1spt-BR!2sbr!4v1740786891921!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+           
+                <h2 class="titulo_produtos">Nossos Produtos</h2>
+                <!-- <img src="img/produtos.jfif" class="img_sobrenos"> -->
+                <ul>
+                    <li>Bom</li>
+                    <li>Bom</li>
+                    <li>Bom</li>
+                    <li>Bom</li>
+                    <li>Bom</li>
+                </ul>
+             </section>
+        </main>
+        <footer>
+            <img src="img/logo.png" alt="Site da Keller's Book Nook" class="logo">
+        </footer>
     </body>
 </html>
