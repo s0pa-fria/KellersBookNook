@@ -1,0 +1,106 @@
+/* /ESTILIZAÇÃO DO BODY (CORPO DA PÁGINA)/ */
+body {
+    margin: 0%;
+    border: 0%;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+/* /ESTILIZAÇÃO DO HEADER (CABEÇALHO DA PÁGINA)/ */
+header {
+    background-color: #4b3123;
+}
+
+.logo {
+    width: 20%;
+}
+
+/* /ESTILIZAÇÃO DO MENU DA PÁGINA/ */
+
+nav a {
+    display: inline;
+    color: white;
+    margin: 0 15px; /* Espaçamento entre os links */
+    text-decoration: none;
+}
+
+/* /ESTILIZAÇÃO DA DIV DO HEADER/ */
+.divHeader{
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    height: 200px; /* Altura do header */
+}
+
+
+
+
+
+/* /ESTILIZAÇÃO BANNER TIPO SLIDES / */
+.slides {
+    width: 100%;
+    height: 48%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+
+/* /ESTILIZAÇÃO SOBRE NÓS/ */
+.img_sobrenos {
+    width: 15%;
+    float: left;
+    margin-right: 20%;
+}
+
+.titulo_sobrenos {
+    text-align: center;
+    clear: left;
+}
+
+.texto_diferente{
+    color: #e9a106;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+/* /ESTILIZAÇÃO NOSSO ESTABELICIMENTO / LOCALIZAÇÃO MAPS/ */
+.mapaGeral {
+    background: linear-gradient(#fff, #eccf7e, #f1ce6b, #e9a106);
+}
+
+.mapaGeral p {
+    text-align: center;
+}
+
+.mapa {
+    margin-left: 20%;
+}
+
+/* /ESTILIZAÇÃO NOSSOS PRODUTOS/ */
+.produtos {
+    /* background: linear-gradient(#e9a106, #f1ce6b, #eccf7e, #fff); */
+    width: 60%;
+    margin-left: 20%;
+    text-align: left;
+}
+
+.img_produto {
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+    width: 20%;
+    float: right;
+    transition: opacity 0.5s ease;
+    margin-right: 20%;
+}
+
+.img_produto:hover {
+    opacity: 90%;
+}
+
+
+/* Estiliozando FOOTER */
+footer{
+    background-color: #4b3123;
+}
